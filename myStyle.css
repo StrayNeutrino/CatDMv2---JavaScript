@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.diceBox {
+  border: 5px outset crimson;
+  background-color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: crimson;
+  height: 50px;
+  width: 50px;
+}
+
+.instructions {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	font-style: oblique;
+	font-family:fantasy;
+	color: crimson;
+}
+
+.button {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	background-color: black;
+  	color: crimson;
+  	border-color: crimson;
+}
