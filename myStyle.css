@@ -8,11 +8,19 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+}
+
+.headerGraphic {
+  width: 30%;
+  height: auto;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
 }
 
 .diceBox {
-  border: 5px outset crimson;
+  border: 3px outset crimson;
   background-color: black;
   display: block;
   margin-left: auto;
@@ -23,11 +31,19 @@ body {
   width: 50px;
 }
 
+.text {
+ 	display: block;
+	margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
 .instructions {
 	display: block;
 	margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  margin-right: auto;
+  text-align: center;
 	font-style: oblique;
 	font-family:fantasy;
 	color: crimson;
@@ -36,8 +52,8 @@ body {
 .button {
 	display: block;
 	margin-left: auto;
-  	margin-right: auto;
-  	background-color: black;
-  	color: crimson;
-  	border-color: crimson;
+  margin-right: auto;
+  background-color: black;
+  color: crimson;
+  border-color: crimson;
 }
