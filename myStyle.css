@@ -2,6 +2,7 @@
 
 body {
 	background-color: black;
+
 }
 
 .center {
@@ -19,41 +20,49 @@ body {
   padding-bottom: 10px;
 }
 
-.diceBox {
+.dicePanel {
   border: 3px outset crimson;
+  box-shadow: 3px rgb(128, 17, 17);
   background-color: black;
+  font-family:fantasy;
+	color: crimson;
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  color: crimson;
+  max-width: 80%;
+}
+
+.row {
+  border: 2px crimson;
+  display: flex;
+  flex-direction: row;
   height: 50px;
-  width: 50px;
 }
 
-.text {
- 	display: block;
-	margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-bottom: 5px;
+.col1 {
+  width: 10%;
+  margin-top: 15px;
 }
 
-.instructions {
-	display: block;
-	margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-	font-style: oblique;
-	font-family:fantasy;
-	color: crimson;
+.col2 {
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.col3 {
+  
 }
 
 .button {
-	display: block;
+	display: flex;
 	margin-left: auto;
   margin-right: auto;
   background-color: black;
   color: crimson;
   border-color: crimson;
+  max-height: 20px;
 }

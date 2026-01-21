@@ -10,11 +10,34 @@
 /*original image created with multiple Adobe Stock images*/
 <img class="headerGraphic" src="catDM.png" alt="Cat Dungeon Master">
 </div>
-<div class="diceBox" id="diceBox">
-<p id="text"></p>
+
+<div id="dicePanel" class="dicePanel">
+
+    <!-- D20 Row -->
+    <div class="row">
+        <div class="col1">
+            <label for="d20" class=""diceLabel">D20: </label>
+            <select class ="diceSelector" id="d20">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+
+        <div class="col2">
+            <button type="button" class="button" onclick="d20Function()">Roll</button>
+            <button type="button" class="button" onclick="refresh()">Clear</button> 
+        </div>
+
+        <div class="col3">
+            <p id="d20Result" class="d20Result"></div>
+        </div>
+    </div>
+
 </div>
-<p class="instructions">Roll For Initiative!</p>
-<button type="button" class="button" onclick="myFunction()">D20</button>
+
 <script src="buttonScript.js"></script>
 </body>
 </html>
