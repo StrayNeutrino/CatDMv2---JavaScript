@@ -23,12 +23,17 @@ function d4Function() {
     
     if (num >1) {
         var result2 = "";
+        var total = 0;
+        var mm = 0;
         for (let i=0; i<num-1; i++) {
             let die = Math.floor(Math.random() * (4 - 1 + 1) + 1);
             result2 = result2 + die + ",  ";
+            total = total + die;
         }
         let die2 = Math.floor(Math.random() * (4 - 1 + 1) + 1);
-        let result = result2 + die2;
+        total = total + die2;
+        mm = total + Number(num);
+        let result = result2 + die2 +  "    Total:  " + total + "    Magic Missile:  " + mm;
         document.getElementById("d4Result").innerHTML=result;
     } else {        
         let die = Math.floor(Math.random() * (4 - 1 + 1) + 1);
@@ -42,12 +47,15 @@ function d6Function() {
     
     if (num >1) {
         var result2 = "";
+        var total = 0;
         for (let i=0; i<num-1; i++) {
             let die = Math.floor(Math.random() * (6 - 1 + 1) + 1);
             result2 = result2 + die + ",  ";
+            total = total + die;
         }
         let die2 = Math.floor(Math.random() * (6 - 1 + 1) + 1);
-        let result = result2 + die2;
+        total = total + die2;
+        let result = result2 + die2 +  "    Total:  " + total;
         document.getElementById("d6Result").innerHTML=result;
     } else {        
         let die = Math.floor(Math.random() * (6 - 1 + 1) + 1);
@@ -61,12 +69,14 @@ function d8Function() {
     
     if (num >1) {
         var result2 = "";
+        var total = 0;
         for (let i=0; i<num-1; i++) {
             let die = Math.floor(Math.random() * (8 - 1 + 1) + 1);
             result2 = result2 + die + ",  ";
+            total = total + die;
         }
         let die2 = Math.floor(Math.random() * (8 - 1 + 1) + 1);
-        let result = result2 + die2;
+        let result = result2 + die2 +  "    Total:  " + total;
         document.getElementById("d8Result").innerHTML=result;
     } else {        
         let die = Math.floor(Math.random() * (8 - 1 + 1) + 1);
@@ -80,12 +90,14 @@ function d10Function() {
     
     if (num >1) {
         var result2 = "";
+        var total = 0;
         for (let i=0; i<num-1; i++) {
             let die = Math.floor(Math.random() * (10 - 1 + 1) + 1);
             result2 = result2 + die + ",  ";
+            total = total + die;
         }
         let die2 = Math.floor(Math.random() * (10 - 1 + 1) + 1);
-        let result = result2 + die2;
+        let result = result2 + die2 +  "    Total:  " + total;
         document.getElementById("d10Result").innerHTML=result;
     } else {        
         let die = Math.floor(Math.random() * (10 - 1 + 1) + 1);
@@ -99,12 +111,14 @@ function d12Function() {
     
     if (num >1) {
         var result2 = "";
+        var total = 0;
         for (let i=0; i<num-1; i++) {
             let die = Math.floor(Math.random() * (12 - 1 + 1) + 1);
             result2 = result2 + die + ",  ";
+            total = total + die;
         }
         let die2 = Math.floor(Math.random() * (12 - 1 + 1) + 1);
-        let result = result2 + die2;
+        let result = result2 + die2 +  "    Total:  " + total;
         document.getElementById("d12Result").innerHTML=result;
     } else {        
         let die = Math.floor(Math.random() * (12 - 1 + 1) + 1);
