@@ -31,10 +31,12 @@ body {
   margin-right: auto;
   text-align: center;
   max-width: 80%;
+  display: flex;
+  flex-direction: column;
 }
 
 .row {
-  border: 2px crimson;
+  border: 2px outset crimson;
   display: flex;
   flex-direction: row;
   height: 50px;
@@ -55,6 +57,10 @@ body {
 
 .col3 {
   
+}
+
+p {
+  white-space: pre;
 }
 
 .button {
