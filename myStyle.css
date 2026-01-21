@@ -2,7 +2,6 @@
 
 body {
 	background-color: black;
-
 }
 
 .center {
@@ -71,4 +70,87 @@ p {
   color: crimson;
   border-color: crimson;
   max-height: 20px;
+}
+
+/******************************************************************************/
+
+@media screen and (min-width: 851px) and (max-width: 1025px) {
+
+.col1 {
+  width: 15%;
+}
+
+.col2 {
+  width: 15%;
+}
+
+}  
+
+/******************************************************************************/
+
+@media screen and (min-width: 481px) and (max-width: 850px) {
+
+.dicePanel {
+  max-width: 98%;
+}
+
+.col1 {
+  width: 15%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.diceSelector {
+  max-width: 35px;
+  margin-left: 15px;
+}
+
+.col2 {
+  width: 15%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.button {
+  margin-top: 1px;
+}
+
+}
+/******************************************************************/
+
+/*media query for small screen devices */
+@media screen and (max-width:480px) {
+
+.dicePanel {
+  max-width: 98%;
+}
+
+.col1 {
+  width: 15%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.diceSelector {
+  max-width: 35px;
+  margin-left: 15px;
+}
+
+.col2 {
+  width: 15%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.button {
+  margin-top: 1px;
+}
+
+
 }
